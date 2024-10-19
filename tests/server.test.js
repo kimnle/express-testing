@@ -5,7 +5,7 @@ const {app} = require("../src/server.js");
 const request = require("supertest");
 
 // Declaring a group of tests for keeping or tests tidy
-describe("Root route works", () => {
+describe("Root route", () => {
 
     // Individual test happens in this type of function:
     // This test runs an async function
