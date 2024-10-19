@@ -20,8 +20,8 @@ jobs:
 
             # Install NPM package such as Express
             - name: Install dependencies for our project
-              uses: npm install
+              run: npm install
 
             # Run out project's `test` command to actually run the tests
             - name: Actually run the tests, finally!!
-              uses: npm run test
+              run: npm run test
