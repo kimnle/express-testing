@@ -70,7 +70,7 @@ describe("Users controller", () => {
         expect(response.body.authHeaderData).toBeUndefined();
         expect(response.body.status).toBe(500);
         expect(response.body.error).toBe("Not valid login data!!");
-    })
+    });
 
     test.skip("User update/edit route returns a single user as object", async() => {
         // PATCH localhost:3000/users/12345
